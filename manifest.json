@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Latch Pluggin",
+  "description": "This extension integrates Latch on your browser.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "images/rsz_latch_logo.png",
+    "default_popup": "html/popup.html"
+  },
+  "permissions": [
+    "https://secure.flickr.com/"
+  ]
+}
